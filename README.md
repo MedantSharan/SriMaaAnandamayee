@@ -1,25 +1,107 @@
-# Welcome to your new ignited app!
+# 🙏 Sri Maa - React Native Bhakti Companion
 
-> The latest and greatest boilerplate for Infinite Red opinions
+> **ॐ श्री आनन्दमयी नमः**
 
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
+A mobile companion app for Sri Sri Maa Anandamayee devotees, built with React Native and Ignite boilerplate.
 
-- [Quick start documentation](https://github.com/infinitered/ignite/blob/master/docs/boilerplate/Boilerplate.md)
-- [Full documentation](https://github.com/infinitered/ignite/blob/master/docs/README.md)
+## 📱 About
 
-## Getting Started
+This app serves as a comprehensive digital hub for devotees of Sri Sri Maa Anandamayee and members of Shree Shree Anandamayee Sangha (SSAS).
+
+### Key Features
+- 🏠 **Home** - Daily sayings and spiritual feed
+- 🏛️ **Ashrams** - Directory of all SSAS ashrams with details
+- 📚 **Library** - Books and literature about Maa
+- 🎉 **Events** - Calendar of celebrations and satsangs
+- 📸 **Photos** - Gallery of Maa's photos
+- ℹ️ **More** - About, guidance, institutions, and settings
+- 🌟 **Dynamic Themes** - Special themes for festivals
+- 📴 **Offline Mode** - Works without internet
+- 🔔 **Notifications** - Daily sayings and event reminders
+
+## 📚 Documentation
+
+- **[IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)** - Step-by-step implementation instructions
+- **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - Architecture and file organization
+- **[Ignite Documentation](https://github.com/infinitered/ignite/blob/master/docs/README.md)** - React Native boilerplate docs
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js >= 18.17.1 (recommended >= 20.0.0)
+- npm or yarn
+- iOS Simulator (Mac) or Android Emulator
+
+### Installation
 
 ```bash
+# Install dependencies
 npm install --legacy-peer-deps
-npm run start
+
+# Install additional required packages
+npm install expo-notifications
+npx expo install expo-notifications expo-device
+
+# Start development server
+npm start
+# or
+npx expo start
 ```
 
-To make things work on your local simulator, or on your phone, you need first to [run `eas build`](https://github.com/infinitered/ignite/blob/master/docs/expo/EAS.md). We have many shortcuts on `package.json` to make it easier:
+### Running the App
 
 ```bash
-npm run build:ios:sim # build for ios simulator
-npm run build:ios:device # build for ios device
-npm run build:ios:prod # build for ios device
+npm run ios              # Run on iOS simulator
+npm run android          # Run on Android emulator
+npm run build:ios:sim    # Build for iOS simulator
+npm run build:android:sim # Build for Android emulator
+```
+
+## 📋 Implementation Status
+
+### ✅ Completed
+- [x] Project initialization with Ignite boilerplate
+- [x] Complete TypeScript type definitions
+- [x] Zustand state management (5 stores)
+- [x] Service layer (API, cache, notifications, sync)
+- [x] Sample mock data files
+- [x] Comprehensive documentation
+
+### 🔄 Next Steps
+- [ ] Complete all mock data JSON files
+- [ ] Implement navigation structure
+- [ ] Build UI component library
+- [ ] Create all screen components
+- [ ] Integrate theme system
+- [ ] Connect services to UI
+- [ ] Testing and refinement
+
+**See [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md) for detailed next steps.**
+
+## 🏗️ Architecture
+
+### Tech Stack
+- **Framework**: React Native 0.81 with Expo
+- **Template**: Ignite by Infinite Red
+- **State**: Zustand
+- **Navigation**: React Navigation v7
+- **Storage**: AsyncStorage
+- **Notifications**: Expo Notifications
+- **Language**: TypeScript
+
+### Project Structure
+```
+app/
+├── models/          # Type definitions ✅
+├── store/           # Zustand stores ✅
+├── services/        # API, cache, sync ✅
+├── components/      # UI components ⏳
+├── screens/         # Screen components ⏳
+├── navigators/      # Navigation ⏳
+└── theme/           # Theme system ⏳
+
+assets/
+└── mock-data/       # JSON data files ⏳
 ```
 
 ### `./assets` directory
@@ -68,10 +150,27 @@ Follow our [Maestro Setup](https://ignitecookbook.com/docs/recipes/MaestroSetup)
 
 Read our [Upgrade Guide](https://ignitecookbook.com/docs/recipes/UpdatingIgnite) to learn how to upgrade your Ignite project.
 
-## Community
+## 🙏 Acknowledgments
 
-⭐️ Help us out by [starring on GitHub](https://github.com/infinitered/ignite), filing bug reports in [issues](https://github.com/infinitered/ignite/issues) or [ask questions](https://github.com/infinitered/ignite/discussions).
+- **Sri Sri Maa Anandamayee** - Source of all inspiration
+- **Shree Shree Anandamayee Sangha** - For preserving Maa's legacy
+- **All Devotees** - Who keep Maa's teachings alive
+- **Ignite Team** - For the excellent React Native boilerplate ([Ignite on GitHub](https://github.com/infinitered/ignite))
+- **React Native Community** - For amazing tools and libraries
 
-💬 Join us on [Slack](https://join.slack.com/t/infiniteredcommunity/shared_invite/zt-1f137np4h-zPTq_CbaRFUOR_glUFs2UA) to discuss.
+## 📞 Resources
 
-📰 Make our Editor-in-chief happy by [reading the React Native Newsletter](https://reactnativenewsletter.com/).
+- **Website**: [shreeshreeanandamayeesangha.org](http://shreeshreeanandamayeesangha.org)
+- **Documentation**: See [IMPLEMENTATION_GUIDE.md](./IMPLEMENTATION_GUIDE.md)
+- **Ignite Docs**: [Ignite Documentation](https://github.com/infinitered/ignite/blob/master/docs/README.md)
+
+---
+
+**Made with devotion and gratitude** 🙏
+
+**ॐ श्री आनन्दमयी नमः**
+
+---
+
+**Version**: 0.0.1 (Development)
+**Last Updated**: January 2025

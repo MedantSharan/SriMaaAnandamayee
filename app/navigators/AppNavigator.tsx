@@ -15,6 +15,8 @@ import { WelcomeScreen } from "@/screens/WelcomeScreen"
 import { useAppTheme } from "@/theme/context"
 
 import { DemoNavigator } from "./DemoNavigator"
+import { SriMaaNavigator } from "./SriMaaNavigator"
+import { SriMaaProvider } from "@/context/SriMaaContext"
 import type { AppStackParamList, NavigationProps } from "./navigationTypes"
 import { navigationRef, useBackButtonHandler } from "./navigationUtilities"
 
@@ -28,39 +30,8 @@ const exitRoutes = Config.exitRoutes
 const Stack = createNativeStackNavigator<AppStackParamList>()
 
 const AppStack = () => {
-  const { isAuthenticated } = useAuth()
-
-  const {
-    theme: { colors },
-  } = useAppTheme()
-
-  return (
-    <Stack.Navigator
-      screenOptions={{
-        headerShown: false,
-        navigationBarColor: colors.background,
-        contentStyle: {
-          backgroundColor: colors.background,
-        },
-      }}
-      initialRouteName={isAuthenticated ? "Welcome" : "Login"}
-    >
-      {isAuthenticated ? (
-        <>
-          <Stack.Screen name="Welcome" component={WelcomeScreen} />
-
-          <Stack.Screen name="Demo" component={DemoNavigator} />
-        </>
-      ) : (
-        <>
-          <Stack.Screen name="Login" component={LoginScreen} />
-        </>
-      )}
-
-      {/** 🔥 Your screens go here */}
-      {/* IGNITE_GENERATOR_ANCHOR_APP_STACK_SCREENS */}
-    </Stack.Navigator>
-  )
+  // Sri Maa app - no authentication needed
+  return <SriMaaNavigator />
 }
 
 export const AppNavigator = (props: NavigationProps) => {
@@ -69,10 +40,12 @@ export const AppNavigator = (props: NavigationProps) => {
   useBackButtonHandler((routeName) => exitRoutes.includes(routeName))
 
   return (
-    <NavigationContainer ref={navigationRef} theme={navigationTheme} {...props}>
-      <ErrorBoundary catchErrors={Config.catchErrors}>
-        <AppStack />
-      </ErrorBoundary>
-    </NavigationContainer>
+    <SriMaaProvider>
+      <NavigationContainer ref={navigationRef} theme={navigationTheme} {...props}>
+        <ErrorBoundary catchErrors={Config.catchErrors}>
+          <AppStack />
+        </ErrorBoundary>
+      </NavigationContainer>
+    </SriMaaProvider>
   )
 }

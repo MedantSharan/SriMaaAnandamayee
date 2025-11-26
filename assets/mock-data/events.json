@@ -1,0 +1,75 @@
+[
+  {
+    "id": "event_001",
+    "title": "Sri Maa Janmotsav 2025",
+    "description": "Grand celebration of Sri Sri Maa's birth anniversary with special satsangs, kirtan, prasad distribution, and continuous naam sankirtan. Devotees from around the world gather to celebrate this auspicious day.",
+    "location": "Kankhal Ashram, Haridwar",
+    "startDate": "2025-04-30T06:00:00Z",
+    "endDate": "2025-04-30T20:00:00Z",
+    "isOnline": true,
+    "isPhysical": true,
+    "livestreamUrl": "https://example.com/live/janmotsav",
+    "organizer": "Shree Shree Anandamayee Sangha",
+    "imageUrl": "https://via.placeholder.com/400x200/FF6B35/FFFFFF?text=Janmotsav+2025",
+    "tags": ["Festival", "Janmotsav", "Kankhal"]
+  },
+  {
+    "id": "event_002",
+    "title": "Monthly Satsang - Varanasi",
+    "description": "Regular monthly gathering for kirtan, meditation, and discourse on Maa's teachings. All devotees welcome. Followed by prasad.",
+    "location": "Varanasi Ashram",
+    "startDate": "2025-02-15T17:00:00Z",
+    "endDate": "2025-02-15T19:00:00Z",
+    "isOnline": false,
+    "isPhysical": true,
+    "tags": ["Satsang", "Regular", "Varanasi"]
+  },
+  {
+    "id": "event_003",
+    "title": "Samadhi Day Observance",
+    "description": "Commemorating the day Maa left her physical form. Day of silence, meditation, and remembrance of Maa's eternal presence.",
+    "location": "All Ashrams",
+    "startDate": "2025-08-27T00:00:00Z",
+    "endDate": "2025-08-27T23:59:59Z",
+    "isOnline": true,
+    "isPhysical": true,
+    "livestreamUrl": "https://example.com/live/samadhi-day",
+    "imageUrl": "https://via.placeholder.com/400x200/4A5568/FFFFFF?text=Samadhi+Day",
+    "tags": ["Samadhi Day", "Memorial", "All Centers"]
+  },
+  {
+    "id": "event_004",
+    "title": "Kirtan Evening with Swami Bhaskarananda",
+    "description": "Special evening of devotional kirtan led by Swami Bhaskarananda. Experience the joy of singing divine names together.",
+    "location": "Kankhal Ashram",
+    "startDate": "2025-03-10T18:00:00Z",
+    "endDate": "2025-03-10T20:00:00Z",
+    "isOnline": false,
+    "isPhysical": true,
+    "tags": ["Kirtan", "Devotional", "Kankhal"]
+  },
+  {
+    "id": "event_005",
+    "title": "Online Study Group - Words of Sri Anandamayi Ma",
+    "description": "Weekly online study and discussion of Maa's teachings. Open to all sincere seekers worldwide. Join via Zoom.",
+    "location": "Online (Zoom)",
+    "startDate": "2025-02-05T19:00:00Z",
+    "endDate": "2025-02-05T20:30:00Z",
+    "isOnline": true,
+    "isPhysical": false,
+    "registrationUrl": "https://example.com/register/study-group",
+    "tags": ["Study", "Online", "Regular"]
+  },
+  {
+    "id": "event_006",
+    "title": "Retreat at Almora Centre",
+    "description": "5-day spiritual retreat in the peaceful Himalayan setting. Includes meditation, satsang, silence periods, and karma yoga. Limited spots available.",
+    "location": "Almora Ashram, Uttarakhand",
+    "startDate": "2025-06-15T00:00:00Z",
+    "endDate": "2025-06-20T23:59:59Z",
+    "isOnline": false,
+    "isPhysical": true,
+    "registrationUrl": "https://example.com/register/almora-retreat",
+    "tags": ["Retreat", "Meditation", "Almora"]
+  }
+]

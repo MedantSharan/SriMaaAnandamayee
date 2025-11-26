@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ashram_001",
+    "name": "Kankhal Ashram",
+    "location": {
+      "city": "Kankhal",
+      "state": "Uttarakhand",
+      "country": "India",
+      "address": "Kankhal, Haridwar, Uttarakhand 249408",
+      "coordinates": {
+        "latitude": 29.9457,
+        "longitude": 78.1642
+      }
+    },
+    "history": "The Kankhal Ashram is one of the main centers established during Sri Sri Maa's lifetime. It holds immense spiritual significance as Maa spent considerable time here.",
+    "significance": "Main Centre - Historic location where Maa gave countless darshans and teachings.",
+    "photoUrl": "https://placeholder.com/ashram1.jpg",
+    "contact": {
+      "inCharge": "Swami Bhaskarananda",
+      "phone": "+91-xxx-xxx-xxxx",
+      "email": "kankhal@anandamayee.org"
+    },
+    "visitingInfo": {
+      "darshanTimings": "6:00 AM - 8:00 PM daily",
+      "stayOptions": "Guest rooms available with prior booking",
+      "guidelines": "Please maintain silence in meditation areas. Photography is not allowed in the Samadhi shrine."
+    },
+    "tags": ["Main Centre", "Historic", "Samadhi"]
+  },
+  {
+    "id": "ashram_002",
+    "name": "Varanasi Ashram",
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "address": "Bhadaini, Varanasi, Uttar Pradesh",
+      "coordinates": {
+        "latitude": 25.3176,
+        "longitude": 82.9739
+      }
+    },
+    "history": "Established in the holy city of Kashi, this ashram serves as a spiritual haven for devotees visiting the ancient city.",
+    "significance": "Important center for spiritual practices and satsangs",
+    "photoUrl": "https://placeholder.com/ashram2.jpg",
+    "contact": {
+      "phone": "+91-xxx-xxx-xxxx",
+      "email": "varanasi@anandamayee.org"
+    },
+    "visitingInfo": {
+      "darshanTimings": "5:30 AM - 9:00 PM",
+      "stayOptions": "Limited accommodation available",
+      "guidelines": "Prior permission required for stay"
+    },
+    "tags": ["Historic", "Retreat Centre"]
+  },
+  {
+    "id": "ashram_003",
+    "name": "Dehradun Kanyapeeth",
+    "location": {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India",
+      "address": "Kishenpur, Dehradun, Uttarakhand",
+      "coordinates": {
+        "latitude": 30.3165,
+        "longitude": 78.0322
+      }
+    },
+    "history": "The Kanyapeeth (girls' school) established under Maa's inspiration to provide spiritual education along with modern learning.",
+    "significance": "Educational center dedicated to holistic development",
+    "photoUrl": "https://placeholder.com/ashram3.jpg",
+    "contact": {
+      "inCharge": "Principal",
+      "phone": "+91-xxx-xxx-xxxx",
+      "email": "kanyapeeth@anandamayee.org"
+    },
+    "visitingInfo": {
+      "darshanTimings": "By appointment",
+      "stayOptions": "Not available for general visitors",
+      "guidelines": "Educational institution - visiting hours restricted"
+    },
+    "tags": ["Kanyapeeth", "Education"]
+  }
+]

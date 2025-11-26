@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "defaultTheme": {
+    "id": "default",
+    "name": "Default",
+    "colors": {
+      "primary": "#8B4513",
+      "accent": "#DAA520",
+      "background": "#FFF5E6",
+      "surface": "#FFFFFF",
+      "text": "#2C1810",
+      "textSecondary": "#6B5447",
+      "border": "#D4C4B0"
+    },
+    "gradients": {
+      "primary": ["#8B4513", "#A0522D"],
+      "background": ["#FFF5E6", "#FFE4B5"]
+    }
+  },
+  "festivalThemes": [
+    {
+      "id": "janmotsav_2025",
+      "name": "Janmotsav 2025",
+      "startDate": "2025-04-29T00:00:00Z",
+      "endDate": "2025-05-01T23:59:59Z",
+      "colors": {
+        "primary": "#FF6B35",
+        "accent": "#F7931E",
+        "background": "#FFF8E7",
+        "surface": "#FFFFFF",
+        "text": "#2C1810",
+        "textSecondary": "#6B5447",
+        "border": "#FFD6A5"
+      },
+      "gradients": {
+        "primary": ["#FF6B35", "#F7931E"],
+        "background": ["#FFF8E7", "#FFE4B5"]
+      },
+      "bannerImageUrl": "https://via.placeholder.com/400x200/FF6B35/FFFFFF?text=Janmotsav"
+    },
+    {
+      "id": "samadhi_day",
+      "name": "Samadhi Day",
+      "startDate": "2025-08-27T00:00:00Z",
+      "endDate": "2025-08-27T23:59:59Z",
+      "colors": {
+        "primary": "#4A5568",
+        "accent": "#9F7AEA",
+        "background": "#F7FAFC",
+        "surface": "#FFFFFF",
+        "text": "#2D3748",
+        "textSecondary": "#718096",
+        "border": "#E2E8F0"
+      },
+      "gradients": {
+        "primary": ["#4A5568", "#9F7AEA"],
+        "background": ["#F7FAFC", "#EDF2F7"]
+      }
+    }
+  ]
+}

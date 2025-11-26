@@ -1,0 +1,68 @@
+[
+  {
+    "id": "book_001",
+    "title": "Matri Vani - Volume I",
+    "author": "Compiled by devotees",
+    "language": "English",
+    "description": "A precious collection of Sri Sri Maa's teachings and conversations. This volume contains her divine words on spiritual practice, devotion, and the path to God-realization.",
+    "coverImageUrl": "https://via.placeholder.com/150x200/8B4513/FFFFFF?text=Matri+Vani+I",
+    "category": "Teachings",
+    "pdfUrl": "https://example.com/matri-vani-1.pdf",
+    "isDownloaded": false,
+    "content": {
+      "type": "text",
+      "data": "The purpose of life is to realize the Self. That is the primary objective. Everything else is secondary...\n\nRemember God under all circumstances. Make your daily life a constant prayer."
+    }
+  },
+  {
+    "id": "book_002",
+    "title": "Mother As Revealed To Me",
+    "author": "Bhaiji (Jyotish Chandra Ray)",
+    "language": "English",
+    "description": "An intimate and inspiring account of Sri Maa's life and teachings by her close disciple Bhaiji. A treasure trove of spiritual wisdom and divine play.",
+    "coverImageUrl": "https://via.placeholder.com/150x200/8B4513/FFFFFF?text=Mother+Revealed",
+    "category": "Biography",
+    "pdfUrl": "https://example.com/mother-revealed.pdf",
+    "isDownloaded": false
+  },
+  {
+    "id": "book_003",
+    "title": "As The Flower Sheds Its Fragrance",
+    "author": "Atmananda",
+    "language": "English",
+    "description": "Daily reflections and teachings from Sri Maa. Each page offers profound wisdom in simple, accessible language perfect for daily contemplation.",
+    "coverImageUrl": "https://via.placeholder.com/150x200/DAA520/FFFFFF?text=Flower+Fragrance",
+    "category": "Daily Reflections",
+    "isDownloaded": false
+  },
+  {
+    "id": "book_004",
+    "title": "Sad Vani",
+    "author": "Sri Sri Anandamayi Ma",
+    "language": "Hindi",
+    "description": "मां के पवित्र वचन। आध्यात्मिक जीवन और साधना पर मां के अमूल्य उपदेश।",
+    "coverImageUrl": "https://via.placeholder.com/150x200/A0522D/FFFFFF?text=Sad+Vani",
+    "category": "Teachings",
+    "isDownloaded": false
+  },
+  {
+    "id": "book_005",
+    "title": "Death Must Die",
+    "author": "Atmananda",
+    "language": "English",
+    "description": "Maa's teachings on death, rebirth, and the immortal Self. A profound exploration of life's deepest mystery through Maa's divine wisdom.",
+    "coverImageUrl": "https://via.placeholder.com/150x200/8B4513/FFFFFF?text=Death+Must+Die",
+    "category": "Philosophy",
+    "isDownloaded": false
+  },
+  {
+    "id": "book_006",
+    "title": "Words of Sri Anandamayi Ma",
+    "author": "Compiled by Atmananda",
+    "language": "English",
+    "description": "A comprehensive compilation of Maa's spoken words on various spiritual topics. An essential guide for seekers on the spiritual path.",
+    "coverImageUrl": "https://via.placeholder.com/150x200/DAA520/FFFFFF?text=Words+of+Ma",
+    "category": "Teachings",
+    "isDownloaded": false
+  }
+]

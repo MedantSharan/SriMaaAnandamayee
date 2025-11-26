@@ -1,0 +1,77 @@
+[
+  {
+    "id": "inst_001",
+    "name": "Shree Shree Anandamayee Kanyapeeth",
+    "category": "Kanyapeeth",
+    "description": "A residential school for girls providing modern education along with spiritual training and character development. Founded under Maa's inspiration to nurture young minds in both worldly and spiritual knowledge.",
+    "location": "Dehradun, Uttarakhand, India",
+    "contact": {
+      "phone": "+91-135-274-0740",
+      "email": "kanyapeeth@anandamayee.org",
+      "address": "Kishenpur, Dehradun, Uttarakhand 248001"
+    },
+    "photoUrl": "https://via.placeholder.com/400x300/8B4513/FFFFFF?text=Kanyapeeth",
+    "websiteUrl": "http://kanyapeeth.org"
+  },
+  {
+    "id": "inst_002",
+    "name": "Shree Shree Anandamayee Sangha Hospital",
+    "category": "Hospital",
+    "description": "Charitable hospital providing medical care to devotees and the local community. Offers both allopathic and ayurvedic treatments with special focus on serving the underprivileged.",
+    "location": "Kankhal, Haridwar, Uttarakhand",
+    "contact": {
+      "phone": "+91-133-424-6329",
+      "email": "hospital@anandamayee.org",
+      "address": "Kankhal, Haridwar, Uttarakhand 249408"
+    },
+    "photoUrl": "https://via.placeholder.com/400x300/48BB78/FFFFFF?text=Hospital"
+  },
+  {
+    "id": "inst_003",
+    "name": "Shree Shree Anandamayee Vidyapeeth",
+    "category": "Vidyapeeth",
+    "description": "Educational institution dedicated to traditional Vedic learning and Sanskrit studies. Preserving ancient knowledge while making it accessible to modern students.",
+    "location": "Varanasi, Uttar Pradesh",
+    "contact": {
+      "email": "vidyapeeth@anandamayee.org",
+      "address": "Bhadaini, Varanasi, Uttar Pradesh"
+    },
+    "photoUrl": "https://via.placeholder.com/400x300/9F7AEA/FFFFFF?text=Vidyapeeth"
+  },
+  {
+    "id": "inst_004",
+    "name": "Anandamayee Charitable Dispensary",
+    "category": "Hospital",
+    "description": "Free medical dispensary providing healthcare services to the poor and needy. Run entirely on donations and staffed by volunteer doctors and nurses.",
+    "location": "Kankhal, Haridwar",
+    "contact": {
+      "phone": "+91-133-424-6330",
+      "address": "Near Kankhal Ashram, Haridwar"
+    }
+  },
+  {
+    "id": "inst_005",
+    "name": "Shree Shree Anandamayee Balika Vidyalaya",
+    "category": "Education",
+    "description": "Primary and secondary school for girls from economically disadvantaged backgrounds. Provides free education, books, uniforms, and midday meals.",
+    "location": "Kankhal, Haridwar",
+    "contact": {
+      "phone": "+91-133-424-6331",
+      "email": "school@anandamayee.org"
+    },
+    "photoUrl": "https://via.placeholder.com/400x300/F7931E/FFFFFF?text=School"
+  },
+  {
+    "id": "inst_006",
+    "name": "Anandamayee Trust",
+    "category": "Trust",
+    "description": "Main administrative trust managing all properties and institutions of the Sangha. Coordinates activities across all centers and ensures proper maintenance of ashrams.",
+    "location": "Kankhal, Haridwar",
+    "contact": {
+      "phone": "+91-133-424-6329",
+      "email": "trust@anandamayee.org",
+      "address": "Kankhal, Haridwar, Uttarakhand 249408"
+    },
+    "websiteUrl": "http://shreeshreeanandamayeesangha.org"
+  }
+]

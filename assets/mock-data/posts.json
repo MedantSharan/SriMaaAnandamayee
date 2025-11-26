@@ -1,0 +1,83 @@
+[
+  {
+    "id": "post_001",
+    "type": "Daily",
+    "title": "Morning Reflection",
+    "body": "Remember Maa in every breath. Let every action be an offering to the Divine. Begin your day with gratitude and end it with surrender.",
+    "imageUrl": "https://via.placeholder.com/400x300/DAA520/FFFFFF?text=Morning+Light",
+    "tags": ["Reflection", "Daily", "Morning"],
+    "category": "Daily",
+    "timestamp": "2025-01-15T06:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_002",
+    "type": "Teaching",
+    "title": "The Path of Devotion",
+    "body": "Maa always emphasized that the path of pure devotion (bhakti) is the simplest and most direct way to realize God. She said: 'Love God as you love your dearest one. Call Him by any name you like. He will respond.'",
+    "tags": ["Teaching", "Bhakti", "Wisdom"],
+    "category": "Teaching",
+    "timestamp": "2025-01-14T10:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_003",
+    "type": "Bhajan",
+    "title": "Hari Naam Sankirtan Recording",
+    "body": "Join us for kirtan every evening at 6 PM. Singing the divine names together creates a powerful spiritual atmosphere. Listen to this beautiful recording from last week's satsang.",
+    "imageUrl": "https://via.placeholder.com/400x300/9F7AEA/FFFFFF?text=Kirtan",
+    "attachments": [
+      {
+        "type": "audio",
+        "url": "https://example.com/bhajan.mp3",
+        "title": "Hari Naam Kirtan Recording"
+      }
+    ],
+    "tags": ["Bhajan", "Kirtan", "Devotional"],
+    "category": "Bhajan",
+    "timestamp": "2025-01-13T18:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_004",
+    "type": "Event",
+    "title": "Janmotsav 2025 - Save the Date",
+    "body": "Mark your calendars! Sri Maa's Janmotsav will be celebrated on April 30th, 2025. Grand celebrations planned at all ashrams with special programs. Online darshan will be available for devotees worldwide.",
+    "imageUrl": "https://via.placeholder.com/400x300/F56565/FFFFFF?text=Janmotsav",
+    "tags": ["Event", "Janmotsav", "Celebration"],
+    "category": "Event",
+    "timestamp": "2025-01-12T08:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_005",
+    "type": "Daily",
+    "title": "On Meditation",
+    "body": "Maa said: 'The mind is like a lake. When it is still, one can see to the bottom - one can realize the Self.' Take time today for silent meditation.",
+    "tags": ["Meditation", "Daily", "Practice"],
+    "category": "Daily",
+    "timestamp": "2025-01-11T07:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_006",
+    "type": "Teaching",
+    "title": "Accept Everything as His Will",
+    "body": "Whatever happens, happens for the best. This was Maa's constant refrain. She taught us to accept everything that comes as His will, knowing that the Divine Mother arranges everything for our highest good.",
+    "imageUrl": "https://via.placeholder.com/400x300/48BB78/FFFFFF?text=Divine+Will",
+    "tags": ["Teaching", "Acceptance", "Surrender"],
+    "category": "Teaching",
+    "timestamp": "2025-01-10T12:00:00Z",
+    "isRead": false
+  },
+  {
+    "id": "post_007",
+    "type": "Announcement",
+    "title": "New Book Release: Matri Vani Volume III",
+    "body": "We are pleased to announce the release of Matri Vani Volume III in English. Available now at all ashrams and online. This volume contains previously unpublished conversations and teachings.",
+    "tags": ["Announcement", "Books", "Publication"],
+    "category": "Announcement",
+    "timestamp": "2025-01-09T09:00:00Z",
+    "isRead": false
+  }
+]

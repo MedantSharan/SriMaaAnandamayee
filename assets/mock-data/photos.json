@@ -1,0 +1,60 @@
+[
+  {
+    "id": "photo_001",
+    "imageUrl": "https://via.placeholder.com/800x600/8B4513/FFFFFF?text=Sri+Maa+in+Vrindavan",
+    "title": "Sri Maa in Vrindavan",
+    "description": "Maa during her blessed visit to the holy land of Vrindavan, where Lord Krishna performed his divine leelas.",
+    "caption": "Divine presence in the land of Krishna",
+    "location": "Vrindavan",
+    "date": "1960-05-15",
+    "tags": ["Vrindavan", "Darshan", "Historic"],
+    "isCached": false
+  },
+  {
+    "id": "photo_002",
+    "imageUrl": "https://via.placeholder.com/800x600/8B4513/FFFFFF?text=Kankhal+Samadhi",
+    "title": "Kankhal Samadhi Shrine",
+    "description": "The sacred Samadhi shrine at Kankhal where Maa's mortal body was laid to rest. A place of deep peace and divine presence.",
+    "location": "Kankhal, Haridwar",
+    "tags": ["Kankhal", "Samadhi", "Ashram"],
+    "isCached": false
+  },
+  {
+    "id": "photo_003",
+    "imageUrl": "https://via.placeholder.com/800x600/DAA520/FFFFFF?text=Maa+in+Meditation",
+    "title": "Maa in Deep Meditation",
+    "description": "A rare photograph capturing Maa in the state of samadhi, radiating divine bliss and peace.",
+    "caption": "The embodiment of Ananda",
+    "tags": ["Meditation", "Samadhi", "Darshan"],
+    "isCached": false
+  },
+  {
+    "id": "photo_004",
+    "imageUrl": "https://via.placeholder.com/800x600/8B4513/FFFFFF?text=Maa+with+Devotees",
+    "title": "Maa with Devotees",
+    "description": "Maa surrounded by loving devotees during a satsang. Her divine smile blessing all present.",
+    "location": "Varanasi",
+    "date": "1965-03-20",
+    "tags": ["Satsang", "Devotees", "Varanasi"],
+    "isCached": false
+  },
+  {
+    "id": "photo_005",
+    "imageUrl": "https://via.placeholder.com/800x600/A0522D/FFFFFF?text=Kanyapeeth",
+    "title": "Kanyapeeth Dehradun",
+    "description": "The beautiful campus of Shree Shree Anandamayee Kanyapeeth in Dehradun, educating young girls in both modern and spiritual knowledge.",
+    "location": "Dehradun",
+    "tags": ["Kanyapeeth", "Education", "Ashram"],
+    "isCached": false
+  },
+  {
+    "id": "photo_006",
+    "imageUrl": "https://via.placeholder.com/800x600/DAA520/FFFFFF?text=Maa+at+Kashi",
+    "title": "Maa at Kashi",
+    "description": "Maa in the ancient holy city of Kashi (Varanasi), one of her favorite places for spiritual work.",
+    "location": "Varanasi",
+    "date": "1970-01-10",
+    "tags": ["Kashi", "Varanasi", "Historic"],
+    "isCached": false
+  }
+]
